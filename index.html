@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/6a07d98646.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    <section class="content">
+        <div class=" main_content">
+            <div class="content_top">
+                <div class="c_t_c">
+                    <input type="text" name="" id="outScreen">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="content_bottom">
+                <div class="bottom_content">
+                    <div class="c_1">
+                        <button onclick="disClear()" class="oparation">C</button>
+                        <button onclick="backClick()" class="oparation"><i class="fa-solid fa-delete-left"></i></button>
+                        <button onclick="numClick('%')" class="oparation">%</button>
+                        <button onclick="numClick('/')" class="oparation"><i class="fa-solid fa-divide"></i></button>
+                    </div>
+                    <div class="c_1">
+                        <button onclick="numClick(7)">7</button>
+                        <button onclick="numClick(8)">8</button>
+                        <button onclick="numClick(9)">9</button>
+                        <button onclick="numClicks('*')" class="oparation"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="c_1">
+                        <button onclick="numClick(4)">4</button>
+                        <button onclick="numClick(5)">5</button>
+                        <button onclick="numClick(6)">6</button>
+                        <button onclick="numClick('-')" class="oparation"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <div class="c_1">
+                        <button onclick="numClick(1)">1</button>
+                        <button onclick="numClick(2)">2</button>
+                        <button onclick="numClick(3)">3</button>
+                        <button onclick="numClick('+')"  class="oparation">+</button>
+                    </div>
+                    <div class="c_1">
+                        <button onclick="numClick('00')">00</button> 
+                        <button onclick="numClick(0)">0</button>
+                        <button onclick="numClick('.')"><i class="fa-solid fa-circle"></i></button>
+                        <button onclick="equal()" class="btn btn_answ"><i class="fa-solid fa-equals"></i></button>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>
