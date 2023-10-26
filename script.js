@@ -1,12 +1,16 @@
 // ------ operation display view ----------
 function numClick(val){
     document.querySelector("#outScreen").value+=val;
+    // outScreen.value+=val;
 }
+
+
 
 
 //  -------- Clear button (disClear()) ----------------
 function disClear(){
     document.querySelector("#outScreen").value ="";
+    // outScreen.value="";
 }
 
 
